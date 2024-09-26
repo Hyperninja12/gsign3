@@ -1,0 +1,40 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the header */
+h2 {
+    color: #0d6efd; /* Bootstrap primary color */
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Center the sign-in button */
+.g-signin2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Add spacing around the Google sign-in button */
+.g-signin2 {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for responsiveness */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+}
